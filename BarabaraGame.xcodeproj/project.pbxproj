@@ -15,6 +15,10 @@
 		9C2AB1DD246D55E0007AD46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AB1DB246D55E0007AD46F /* LaunchScreen.storyboard */; };
 		9C2AB1E8246D55E0007AD46F /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2AB1E7246D55E0007AD46F /* BarabaraGameTests.swift */; };
 		9C2AB1F3246D55E0007AD46F /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2AB1F2246D55E0007AD46F /* BarabaraGameUITests.swift */; };
+		9C2AB203246D582D007AD46F /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AB201246D582D007AD46F /* tail.png */; };
+		9C2AB204246D582D007AD46F /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AB202246D582D007AD46F /* bar.png */; };
+		9C2AB206246D5B2C007AD46F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2AB205246D5B2C007AD46F /* GameViewController.swift */; };
+		9C2AB208246D5BC9007AD46F /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2AB207246D5BC9007AD46F /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		9C2AB1EE246D55E0007AD46F /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2AB1F2246D55E0007AD46F /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		9C2AB1F4246D55E0007AD46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2AB201246D582D007AD46F /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		9C2AB202246D582D007AD46F /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		9C2AB205246D5B2C007AD46F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9C2AB207246D5BC9007AD46F /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +111,11 @@
 				9C2AB1D2246D55DD007AD46F /* SceneDelegate.swift */,
 				9C2AB1D4246D55DD007AD46F /* ViewController.swift */,
 				9C2AB1D6246D55DD007AD46F /* Main.storyboard */,
+				9C2AB207246D5BC9007AD46F /* RankingViewController.swift */,
+				9C2AB205246D5B2C007AD46F /* GameViewController.swift */,
 				9C2AB1D9246D55E0007AD46F /* Assets.xcassets */,
 				9C2AB1DB246D55E0007AD46F /* LaunchScreen.storyboard */,
+				9C2AB200246D582D007AD46F /* Barabara素材 */,
 				9C2AB1DE246D55E0007AD46F /* Info.plist */,
 			);
 			path = BarabaraGame;
@@ -126,6 +137,15 @@
 				9C2AB1F4246D55E0007AD46F /* Info.plist */,
 			);
 			path = BarabaraGameUITests;
+			sourceTree = "<group>";
+		};
+		9C2AB200246D582D007AD46F /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				9C2AB201246D582D007AD46F /* tail.png */,
+				9C2AB202246D582D007AD46F /* bar.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C2AB1DD246D55E0007AD46F /* LaunchScreen.storyboard in Resources */,
+				9C2AB204246D582D007AD46F /* bar.png in Resources */,
+				9C2AB203246D582D007AD46F /* tail.png in Resources */,
 				9C2AB1DA246D55E0007AD46F /* Assets.xcassets in Resources */,
 				9C2AB1D8246D55DD007AD46F /* Main.storyboard in Resources */,
 			);
@@ -259,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2AB208246D5BC9007AD46F /* RankingViewController.swift in Sources */,
+				9C2AB206246D5B2C007AD46F /* GameViewController.swift in Sources */,
 				9C2AB1D5246D55DD007AD46F /* ViewController.swift in Sources */,
 				9C2AB1D1246D55DD007AD46F /* AppDelegate.swift in Sources */,
 				9C2AB1D3246D55DD007AD46F /* SceneDelegate.swift in Sources */,
